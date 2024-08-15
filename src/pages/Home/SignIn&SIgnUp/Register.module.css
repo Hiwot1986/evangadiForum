@@ -1,0 +1,107 @@
+.register_contanier{
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+  margin-bottom: 50px;
+  background-image: url(https://forum.ibrodev.com/bg-svg-f.svg);
+}
+.login_inner {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  height: auto;
+  min-height: 450px;
+  padding: 15px 30px 25px;
+  width: 100%;
+  
+}
+
+.Carousel_inner{
+  position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+h5{
+  font-size: 1.25rem;
+}
+a:link{
+  text-decoration: none;
+  
+}
+span a{
+  color: #fe8402;
+}
+form{
+  margin-top: 30px;
+}
+.from_input input{
+  padding: 10px 15px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(202, 202, 202);
+}
+.password{
+  position: relative;
+}
+.forget a{
+  display: block;
+  text-decoration: none;
+  color: rgb(254, 132, 2);
+  text-align: right;
+  margin-top: 15px; 
+}
+.btn button{
+  font-size: 1rem;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(81, 108, 240);
+
+}
+ .fNlN{
+  display: flex;
+  gap:5px;
+ } 
+.agreement{
+  font-size: 0.9rem;
+  margin-top: 13px;
+}
+
+@media (min-width: 768) {
+  .login_inner_contanier {
+    max-width: 720px;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+  .login_inner {
+    width: 90%;
+    margin: 25px auto;
+    
+  }
+  
+}
+
+.from_input input{
+  padding: 10px 15px;
+    width: 100%;
+    margin-top: 1px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(202, 202, 202);
+}
+
+.from_input {
+  position: relative; /* Create a positioning context for the child elements */
+}
+.password_toggle {
+  position: absolute; /* Position the icon absolutely within the parent container */
+  right: 10px; /* Position the icon 10px from the right edge */
+  top: 50%; /* Center the icon vertically within the input field */
+  transform: translateY(-50%); /* Adjust the vertical alignment to the center */
+  cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
+  font-size: 20px; /* Adjust the icon size as needed */
+  color: #888; /* Set the icon color */
+}
